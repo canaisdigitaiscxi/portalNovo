@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* === Responsive === */
+
+/* Mobile */
+@media only screen and (max-width: 720px) { 
+
+	/* === Global === */
+	.title {
+		h2 {
+			font-size: 22px;
+    		text-align: center;
+		}
+
+		hr {
+			margin: 20px auto 30px;
+		}
+
+	}
+
+	footer {
+		.title {
+			h2 {
+				text-align: left;
+			}
+
+			hr {
+				margin:15px 0 21px;
+			}
+		}
+
+		ul.mapLinks {
+		    margin: 0 0 30px 0;
+		}
+
+		.subfooter {
+			.col-md-4.text-right {
+				display: none;
+			}
+		}
+	}
+
+	/* ========= Index ========= */
+	header {
+	    padding: 0 0 81px;
+
+	    nav {
+	    	a.navbar-brand {
+		    	margin: 15px 0 0 15px;
+		    }
+
+		    ul.navbar-nav {
+		    	div.hidden {
+		    		display: block!important;
+		    	}
+		    }
+	    }
+
+	    .subnav {
+	    	display: none;
+	    }
+		    
+		h6 {
+			width: 100%!important;
+		}
+	}
+
+	/* === section === */
+	section {
+		&#about {
+			padding:80px 0;
+
+			.boxMissionValues {
+				margin: 40px auto 0;
+				padding: 40px;
+				border-radius: 8px!important;
+			}
+		}
+
+		&#value {
+			padding: 45px 0 0px;
+    		height: 440px;
+
+			.owl-carousel {
+				bottom:-35px;
+			}
+		}
+
+		&#thumbs-elements {
+			padding:240px 0 40px;
+
+			p {
+				margin:0 0 70px 0;
+			}
+		}
+
+	}
+
+
+	/* ========= Inside Pages ========= */
+	body.hotSite {
+
+		/* === Para o Mercado === */
+		section#diferenciais {
+			max-height: 520px;
+		}
+
+		.space {
+			margin: 50px 0 0 0;
+		}
+
+	}
+
+}

@@ -1,0 +1,51 @@
+/* === Responsive === */
+/* Mobile */
+@media only screen and (max-width: 720px) {
+  /* === Global === */
+  .title h2 {
+    font-size: 22px;
+    text-align: center; }
+  .title hr {
+    margin: 20px auto 30px; }
+  footer .title h2 {
+    text-align: left; }
+  footer .title hr {
+    margin: 15px 0 21px; }
+  footer ul.mapLinks {
+    margin: 0 0 30px 0; }
+  footer .subfooter .col-md-4.text-right {
+    display: none; }
+  /* ========= Index ========= */
+  header {
+    padding: 0 0 81px; }
+    header nav a.navbar-brand {
+      margin: 15px 0 0 15px; }
+    header nav ul.navbar-nav div.hidden {
+      display: block !important; }
+    header .subnav {
+      display: none; }
+    header h6 {
+      width: 100% !important; }
+  /* === section === */
+  section#about {
+    padding: 80px 0; }
+    section#about .boxMissionValues {
+      margin: 40px auto 0;
+      padding: 40px;
+      border-radius: 8px !important; }
+  section#value {
+    padding: 45px 0 0px;
+    height: 440px; }
+    section#value .owl-carousel {
+      bottom: -35px; }
+  section#thumbs-elements {
+    padding: 240px 0 40px; }
+    section#thumbs-elements p {
+      margin: 0 0 70px 0; }
+  /* ========= Inside Pages ========= */
+  body.hotSite {
+    /* === Para o Mercado === */ }
+    body.hotSite section#diferenciais {
+      max-height: 520px; }
+    body.hotSite .space {
+      margin: 50px 0 0 0; } }

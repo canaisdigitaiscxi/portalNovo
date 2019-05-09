@@ -1,0 +1,354 @@
+/* ======== Components ======== */
+
+/* = Msg = */
+.alert {
+	&.alert-success {
+	    margin: 30px 50px 0;
+	}
+}
+
+/* = Owl Carrousel  = */
+.owl-carousel {
+	.owl-dots {
+		text-align: center;
+		margin: 18px 0 0 0;
+
+		button.owl-dot {
+			&.active {
+				span {
+					background:#F7941D;
+				}
+			}
+
+			span {
+				width: 13px;
+			    height: 13px;
+			    display: inline-block;
+			    border-radius: 13px;
+			    background: #E5E5E5;
+			    margin: 0 5px;
+			}
+		}
+	}
+}
+
+/* = Social Links = */
+.social {
+
+	a {
+		background-repeat: no-repeat;
+	    background-position: center;
+	    margin: 11px 12px 7px 0;
+	    background-size: auto 17px;
+	    display: inline-block;
+	    width: 17px;
+	    height: 18px;
+
+		&.facebook {
+			background-image:url('../img/icons/ico-facebook.svg');
+		}
+
+		&.linkedin {
+			background-image:url('../img/icons/ico-linkedin.svg');
+		}
+
+		&.instagram {
+			background-image:url('../img/icons/ico-instagram.svg');
+		}
+
+	}
+
+}
+
+/* = Btn = */
+.btn {
+	font-family: "FuturaWeb", FuturaWeb;
+	font-weight:600;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	border:none;
+	padding: 11px 32px;
+
+	&.btn-default {
+		border:solid 1px #585858;
+		color: #585858;
+		line-height: 24px!important;
+	}
+
+	&.btn-ghost-white {
+		border: solid 1px white!important;	
+
+		&:hover {
+			color: white;
+		}
+	}
+
+	&.btn-primary {
+		background: #005CA9;
+
+		&:hover {
+			background:#004D8D;
+		}
+	}
+
+	&.btn-secondary {
+		border: none;
+		background: #1F2A47;
+		font-family: "FuturaWeb", FuturaWeb;
+		font-weight:bold;
+		font-size: 14px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		text-align: center;
+		line-height: 16px;
+		padding: 15px 54px;
+		border-radius: 5px;
+
+		img {
+			margin: 0 7px -4px 0;
+		}
+	}
+
+
+}
+
+/* = Title = */
+.text-center .title {
+
+	hr {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+}
+
+.title {
+	h2 {
+		font-family: "FuturaWeb", FuturaWeb;
+		font-weight:bold;
+		font-size: 23px;
+		color: #1F2A47;
+		letter-spacing: 0.47px;
+		margin: 0 0 24px 0;
+	}
+
+	h6 {
+		font-family: "FuturaWeb", FuturaWeb;
+		font-weight:bold;
+		font-size: 16px;
+		color: #8A8A8F;
+		letter-spacing: 0.37px;
+		text-align: left;
+	}
+
+	hr {
+		width: 80px;
+		margin: 20px 0 30px 0;
+		border-color:#F39200;
+		border-width: 4px;
+	}
+}
+
+/* = Modal = */
+.modal .modal-content {
+	hr {
+		border-bottom: solid 4px #F7941D;
+    	position: relative;
+    	margin: -6px 50px 0px;
+	}
+
+	/* Header */
+	.modal-header {
+		background:#1F2A47;
+		font-family: "FuturaWeb", FuturaWeb;
+		font-size: 22px;
+		color: #FFFFFF;
+		letter-spacing: 0.36px;
+		font-weight:600;
+		padding: 30px 50px 20px;
+
+		.close {
+			text-shadow: none;
+			color: white;
+		}
+	}
+
+	/* Content */
+	.modal-body {
+		padding: 0 0 40px 0;
+
+		h4 {
+			font-family: Arial;
+		    font-size: 14px;
+		    color: #858585;
+		    letter-spacing: 0.8px;
+		    background: #F0F0F0;
+		    padding: 8px 14px;
+		    margin: 25px 0 10px 0;
+		    border-radius: 5px;
+		}
+
+		form {
+			padding: 30px 50px 0;
+
+			.row.justify-content-md-center {
+			    margin-top: 30px;
+			}
+		}
+
+		label.error {
+			position: absolute;
+		    font-size: 12px;
+		    color: #F9765E;
+		}
+
+	}
+
+	/* Footer */
+	.modal-footer {
+		border: none;
+	    text-align: center;
+	    padding: 30px 30px;
+	    justify-content: center;
+	}
+
+}
+
+/* = Form = */
+form {
+	&.opacity {
+		opacity: 0.2!important;
+	}
+}
+
+label.error {
+	position: absolute;
+    font-size: 12px;
+    color: #F9765E;
+}
+
+.form-radio,
+.form-group {
+	position: relative;
+	margin: 17px 0;
+}
+
+.form-inline > .form-group,
+.form-inline > .btn {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.form-group input {
+	height: 1.9rem;
+}
+
+.form-group textarea {
+	resize: none;
+	margin-top: 35px;
+}
+
+.form-group .control-label {
+	position: absolute;
+	top: 0.25rem;
+	pointer-events: none;
+	padding-left: 0.125rem;
+	z-index: 1;
+	font-weight: normal;
+	-webkit-transition: all 0.28s ease;
+	transition: all 0.28s ease;
+	font-family: Arial;
+	font-size: 14px;
+	color: #858585;
+	letter-spacing: 0.7px;
+}
+
+.form-group .bar {
+	position: relative;
+	border-bottom: 0.0625rem solid #59779E;
+	display: block;
+}
+
+.form-group .bar::before {
+	content: '';
+	height: 0.125rem;
+	width: 0;
+	left: 50%;
+	bottom: -0.0625rem;
+	position: absolute;
+	background: #F7941D;
+	-webkit-transition: left 0.28s ease, width 0.28s ease;
+	transition: left 0.28s ease, width 0.28s ease;
+	z-index: 2;
+}
+
+.form-group input,
+.form-group textarea {
+	display: block;
+	background: none;
+	padding: 0.125rem 0.125rem 0.0625rem;
+	font-size: 1rem;
+	border-width: 0;
+	border-color: transparent;
+	line-height: 1.9;
+	width: 100%;
+	color: transparent;
+	-webkit-transition: all 0.28s ease;
+	transition: all 0.28s ease;
+	box-shadow: none;
+}
+
+.form-group select {
+	background: transparent;
+    border: none;
+    height: 30px;
+}
+
+.form-group select,
+.form-group input:focus,
+.form-group input:valid,
+.form-group input.form-file,
+.form-group input.has-value,
+.form-group textarea:focus,
+.form-group textarea:valid,
+.form-group textarea.form-file,
+.form-group textarea.has-value {
+	color: #454545;
+}
+
+.form-group select ~ .control-label,
+.form-group input:focus ~ .control-label,
+.form-group input:valid ~ .control-label,
+.form-group input.form-file ~ .control-label,
+.form-group input.has-value ~ .control-label,
+.form-group textarea:focus ~ .control-label,
+.form-group textarea:valid ~ .control-label,
+.form-group textarea.form-file ~ .control-label,
+.form-group textarea.has-value ~ .control-label {
+	font-size: 0.78rem!important;
+	color: #454545;
+	top: -17px;
+	left: 0;
+	opacity: 0.8;
+}
+
+.form-group select:focus,
+.form-group input:focus,
+.form-group textarea:focus {
+	outline: none;
+}
+
+.form-group select:focus ~ .control-label,
+.form-group input:focus ~ .control-label,
+.form-group textarea:focus ~ .control-label {
+	color: #454545;
+}
+
+.form-group select:focus ~ .bar::before,
+.form-group input:focus ~ .bar::before,
+.form-group textarea:focus ~ .bar::before {
+	width: 100%;
+	left: 0;
+}

@@ -1,0 +1,12 @@
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www.caixaimoveis.com.brapple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.caixaimoveis.com.brapple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://www.caixaimoveis.com.brapple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://www.caixaimoveis.com.brapple-touch-icon-76x76.png" />
+<link rel="icon" type="image/png" href="http://www.caixaimoveis.com.brfavicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="http://www.caixaimoveis.com.brfavicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="http://www.caixaimoveis.com.brfavicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="http://www.caixaimoveis.com.brfavicon-128.png" sizes="128x128" />
+<meta name="application-name" content="Caixa Imóveis"/>
+<meta name="msapplication-TileColor" content="#" />
+<meta name="msapplication-TileImage" content="http://www.caixaimoveis.com.brmstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="http://www.caixaimoveis.com.brmstile-70x70.png" />
